@@ -31,7 +31,7 @@ class Traveler {
       return this._food -= 1;
     }
     if (this._food === 0) {
-      return this._isHealthy === false;
+      return this._isHealthy = false;
     }
   }
 }
